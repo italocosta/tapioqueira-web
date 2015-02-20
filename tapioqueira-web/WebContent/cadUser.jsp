@@ -3,9 +3,10 @@
 		<title>Cadastro de Usuários</title>
 	</head>
 	<body>
-		<form action="" method="post">
+		<form action="sistema" method="post">
+			<input type="hidden" name="acao" value="AdicionaUsuario">
 			Nome Completo : <input type="text" name="nome"><br>
-			Tipo : <select>
+			Tipo : <select name="tipo">
 						<option value="G">Garçom</option>
 						<option value="C">Caixa</option>
 				   </select><br>
