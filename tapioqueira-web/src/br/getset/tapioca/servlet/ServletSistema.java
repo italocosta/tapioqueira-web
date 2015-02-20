@@ -1,4 +1,4 @@
-package br.getset.tapoica.servlet;
+package br.getset.tapioca.servlet;
 
 import java.io.IOException;
 
